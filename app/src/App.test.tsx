@@ -33,7 +33,6 @@ describe("when file is selected", () => {
     // simulate ulpoad event and wait until finish
     await fireEvent.change(fileElement, {target: { files: [file] },})
 
-
     fireEvent.click(fileElement)
 
     // simulate reset

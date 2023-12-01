@@ -13,7 +13,6 @@ function App() {
     if (!file) {
       return (
         <input
-          id="hey"
           name="file"
           type="file"
           role="button"
